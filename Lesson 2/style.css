@@ -1,0 +1,43 @@
+img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid rebeccapurple
+}
+.Block1 p{
+color: brown;
+
+height: 200px;
+}
+.Block1{
+    border: 3px solid black;
+
+}
+.Block2{
+    border: 5px solid blue;
+    color: red;
+    margin: 20px;
+    margin: 40px;
+}
+.whiteblock{
+    border: 1px solid chocolate;
+    width: 200px;
+    background-color: green;
+}
+.blackblock{
+    
+    background-color: black;
+    width: 200px;
+    height: 50px;
+}
+.redblock{
+    
+    background-color: red;
+    width: 200px;
+    height: 50px;  
+}
+.yellowblock{
+    
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
