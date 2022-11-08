@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0 550px;
+    color: red;
+}
+.Block1{
+   width: 1300px;
+   height: 220px;
+   background-color: blue;
+   margin: 0 auto;
+}
+.Block1 img{
+    width: 200px;
+    height: 120px;
+    margin: 20px 0 0 20px;
+}
+.Block1 a{
+    color: yellowgreen;
+    padding: 0 0 0 20px; 
+}
+.Block1 p{
+    padding: 0 0 0 20px;
+}
+
+.Block2{
+    width: 1300px;
+    height: 220px;
+    background-color: green;
+    margin: 30px auto;  ;
+ }
+ .Block2 img{
+     width: 200px;
+     height: 120px;
+     margin: 20px 0 0 20px;
+ }
+ .Block2 a{
+     color: black;
+     padding: 0 0 0 20px; 
+    }
+ 
+ .Block2 p{
+     padding: 0 0 0 20px;
+ }
+ .Block3{
+    width: 1300px;
+    height: 220px;
+    background-color: purple;
+    margin: 30px auto;  
+ }
+ .Block3 img{
+     width: 200px;
+     height: 120px;
+     margin: 20px 0 0 20px;
+ }
+ .Block3 a{
+     color: rgb(46, 32, 32);
+     padding: 0 0 0 20px; 
+    }
+ 
+ .Block3 p{
+     padding: 0 0 0 20px;
+ }
+.Block4 {
+    border: 1px solid blue;
+    width: 1300px;
+    height: 50px;
+    margin: 30px auto; 
+}  
+.Block4 img{
+width: 10px;
+height: 10px;
+}  

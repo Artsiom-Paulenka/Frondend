@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid rebeccapurple
+}
+.Block1 p{
+color: brown;
+
+height: 200px;
+}
+.Block1{
+    border: 3px solid black;
+padding:0 auto;
+}
+.Block2{
+    border: 5px solid blue;
+    color: red;
+    margin: 20px auto;
+    /* margin: 20px; */
+    padding: 5px auto;
+    width: 400px;
+    height: 150px;
+}
+.whiteblock{
+    border: 1px solid chocolate;
+    width: 200px;
+    background-color: green;
+}
+.blackblock{
+    
+    background-color: black;
+    width: 200px;
+    height: 50px;
+}
+.redblock{
+    
+    background-color: red;
+    width: 200px;
+    height: 50px;  
+}
+.yellowblock{
+    
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
+
+.backgroundYellow{
+    width: 800px;
+    height: 50px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 50px auto;
+    
+}
+.paragraf{
+    border: 1px solid black;
+   padding: 15px;
+
+}
