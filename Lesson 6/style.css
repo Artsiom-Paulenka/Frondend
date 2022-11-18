@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .body{
+    padding: 30px;
+}
+.parient{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0 auto;
+    height: 800px ;
+    position: relative;
+}
+.Block1{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+.Block2{   
+    text-align: center;
+    background-color: green ;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+.Block3{
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+} */
+/* .container{
+    
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.Home, .History, .News, .Skills, .Contact{
+border-left: 1px solid white;
+}
+
+h3, p{
+    padding-top: 10px;
+}
+h1{
+    padding-top: 50px;
+} */
+.parient{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0 auto;
+    height: 800px ;
+    
+}
+.Block1{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    
+    
+}
+.Block2{   
+    text-align: center;
+    background-color: green ;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    
+}
+.Block3{
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+.Block4{
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+    position: relative;
+}
