@@ -41,12 +41,12 @@ main{
 .Firstblock{
     width: 30%;
     background-color: #B9848C;
-    padding: 2px 2px 2px 2px;
+    padding: 130px 2px 2px 2px;
 }
 .Secondblock{
     width: 70%;
     background-color: #806491;
-    padding: 2px 2px 2px 2px;
+    padding: 130px 2px 2px 2px;
 }
 .Firstblock img{
 padding: 2px 2px 2px 2px;
