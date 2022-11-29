@@ -9,7 +9,7 @@
 // Программа должна выводить на экран новое значение.
 
 // let Num2 = Number(prompt('Enter the number'));
-// if (Num2 > 0 && Num2 % 2 == 0) {
+// if (Num2 > 0 && Num2 % 1 == 0) {
 //     console.log(Num2 ** 2);
 // }
 // else {
@@ -20,7 +20,7 @@
 // 3. Составьте программу, которая принимает с клавиатуры целое число и выводит на экран одно из следующих сообщений: "положительное", или "отрицательное", или "ноль" – в зависимости от значения числа.
 
 // let Num3 = Number(prompt('Enter the number'));
-// if (Num3 % 2 == 0) {
+// if (Num3 % 1 == 0) {
 //     if (Num3 > 0) {
 //         console.log('положительное')
 //     };
@@ -37,7 +37,7 @@
 
 // let Num4 = Number(prompt('Enter the number'));
 // let Numb4 = Number(prompt('Enter the number'));
-// if (Num4 % 2 == 0 && Numb4 % 2 == 0) {
+// if (Num4 % 1 == 0 && Numb4 % 1 == 0) {
 //     if (Num4 > Numb4) {
 //         console.log(Num4 + Numb4)
 //     };
@@ -55,7 +55,7 @@
 // В противном случае – на экран выводится сообщение "ошибка".
 
 // let Num5 = Number(prompt('Enter the number'));
-//     if (Num5 < 0 && Num5 % 2 == 0) {
+//     if (Num5 < 0 && Num5 % 1 == 0) {
 //         console.log(Num5 ** 2)
 //     }
 //     else {
@@ -99,14 +99,76 @@
 
 // 9. Составьте программу, которая принимает с клавиатуры целое число и выводит на экран 7 последующих за ним нечетных чисел.
 
-let Numb8 = Number(prompt('Enter the number');
-
-for (Numb8 = 0; Numb8 < 8; Numb8 ++){
-    if (Numb8 % 2 != 0) {
-        console.log(Numb8)
-    }  console.log(Numb8)
-}
-
+// let Numb8 = Number(prompt('Enter the number'));
+// if (Numb8 % 1 == 0) {
+//     for (let i = Numb8; i < (Numb8 + 14); i++) {
+//         if (i % 2 != 0) {
+//             console.log(i)
+//         };
+//     };
+// }
 
 // 10. Написать цикл, который выводит те числа из массива, которые больше или равны 15
-let arr = [];
+
+// let arr = [1, 4, 6, 15, 18, 20];
+// for (let num = 0; num < arr.length; num++){
+//     if (arr[num] >= 15) {
+//         console.log(arr[num]);
+//     }
+// }
+
+// 11. Написать цикл, который выводит только нечетные числа 
+
+// let arr = [1, 4, 6, 15, 18, 20];
+// for (let num = 0; num < arr.length; num++){
+//     if (arr[num] % 2 != 0) {
+//         console.log(arr[num]);
+//     }
+// }
+
+// 12. Вывести только те значения массива, индекс которых кратен трем
+
+// let arr = [1, 4, 9, 15, 18, 20];
+// for (let num = 0; num < arr.length; num++){
+//     if (arr[num] % 3 == 0) {
+//         console.log(arr[num]);
+//     }
+// }
+
+// 13. Найти сумму всех элементов массива.
+
+// let arr = [1, 4, 9, 15, 18, 20];
+// let sum = 0;
+// for (let num = 0; num < arr.length; num++){
+//     if (arr[num] > 0) {
+//         sum += arr[num];
+//         }
+// } console.log(sum);
+
+// 14. Найти сумму нечетных чисел и вывести в консоль. 
+
+// let arr = [1, 4, 9, 15, 18, 20];
+// let sum = 0;
+// for (let num = 0; num < arr.length; num++){
+//     if (arr[num] % 2 != 0) {
+//         sum += arr[num];
+//         }
+// } console.log(sum);
+
+// 15. Найти сумму четных и нечетных чисел из массива и вывести разницу между ними.Вычесть из большего меньшее.
+
+let arr = [1, 2, 3, 4, 5, 6];
+let sum = 0
+for (let num = 0; num < arr.length -1; num++){
+    if (arr[num] % 2 != 0) {
+       sum = sum + arr[num];
+    }
+    
+    let sum1 = sum;
+        if (arr[num] % 2 == 0) {
+        sum = sum + arr[num];
+    } let sum2 = sum;
+if(sum1 > sum2){
+    consol.log(sum1 - sum2);
+}
+} 
