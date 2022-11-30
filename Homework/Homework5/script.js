@@ -117,7 +117,7 @@
 //     }
 // }
 
-// 11. Написать цикл, который выводит только нечетные числа 
+// 11. Написать цикл, который выводит только нечетные числа
 
 // let arr = [1, 4, 6, 15, 18, 20];
 // for (let num = 0; num < arr.length; num++){
@@ -145,7 +145,7 @@
 //         }
 // } console.log(sum);
 
-// 14. Найти сумму нечетных чисел и вывести в консоль. 
+// 14. Найти сумму нечетных чисел и вывести в консоль.
 
 // let arr = [1, 4, 9, 15, 18, 20];
 // let sum = 0;
@@ -157,18 +157,28 @@
 
 // 15. Найти сумму четных и нечетных чисел из массива и вывести разницу между ними.Вычесть из большего меньшее.
 
-let arr = [1, 2, 3, 4, 5, 6];
-let sum = 0
-for (let num = 0; num < arr.length -1; num++){
-    if (arr[num] % 2 != 0) {
-       sum = sum + arr[num];
-    }
-    
-    let sum1 = sum;
-        if (arr[num] % 2 == 0) {
-        sum = sum + arr[num];
-    } let sum2 = sum;
-if(sum1 > sum2){
-    consol.log(sum1 - sum2);
-}
-} 
+// let arr = [23, 14, 19, 10, 45, 9];
+// let EvenCount = 0;
+// let OddCount = 0;
+// for (let num = 0; num < arr.length; num++) {
+//     if (arr[num] % 2 != 0) {
+//         OddCount = OddCount + arr[num];
+//     }
+// }
+//     for (let num = 0; num < arr.length; num++) {
+//         if (arr[num] % 2 == 0) {
+//             EvenCount = EvenCount + arr[num];
+//         }
+//     }
+// if(OddCount > EvenCount){
+//     console.log(OddCount - EvenCount);
+//     }
+//     if (EvenCount > OddCount) {
+//         console.log(EvenCount - OddCount);
+//     }
+//     if(OddCount == EvenCount) {
+//         console.log(0);
+//     }
+
+
+
