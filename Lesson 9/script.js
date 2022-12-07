@@ -75,19 +75,60 @@
 // let num2 = Number(prompt('Enter the number'));
 // console.log(sum(num1, num2));
 
-function checkAge(age) {
-    if (age > 18) {
-        return true;
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// let userAge = Number(prompt('Сколько вам лет'));
+// if (checkAge(userAge)) {
+//     console.log('Доступ получен');
+// }
+// else {
+//     console.log('Доступ закрыт');
+// }
+// function getNumber(number) {
+//     if (number % 2 == 0){
+//         return true;
+// }
+// else {
+//     return false;
+//     }
+// }
+// let checkNumber = Number(prompt('Введите число'));
+// if (getNumber(checkNumber)) {
+//     console.log('Да')
+// }
+// else {
+//     console.log('Нет');
+// }
+// function getNumber() {
+//     let checkNumber = Number(prompt('Введите число'));
+//     if (checkNumber % 2 == 0) {
+//         return true;
+// }
+// else {
+//     return false;
+//     }
+// }
+
+// if (getNumber(checkNumber)) {
+//     console.log('Да')
+// }
+// else {
+//     console.log('Нет');
+// }
+function min(a, b) {
+    if (a < b) {
+        return numberOne;
     }
     else {
-        return false;
+        return numberTwo;
     }
 }
-let userAge = Number(prompt('Сколько вам лет'));
-if (checkAge(userAge)) {
-    console.log('Доступ получен');
-}
-else {
-    console.log('Доступ закрыт');  
-}
-
+let numberOne = Number(prompt('Первое число'));
+let numberTwo = Number(prompt('Второе число'));
+console.log(min(numberOne, numberTwo));
