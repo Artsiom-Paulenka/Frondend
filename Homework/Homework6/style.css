@@ -7,7 +7,7 @@
 .row {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .large {
@@ -17,12 +17,12 @@
 
 img {
     border: solid 1px black;
-    width: 120px;
-    height: 120px;
-    margin: 2px;
+    width: 140px;
+    height: 130px;
+    margin: 3px;
 }
 
 #largeImg {
-    width: 550px;
-    height: 400px;
+    width: 570px;
+    height: 420px;
 }
